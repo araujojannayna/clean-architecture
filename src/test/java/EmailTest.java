@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test;
+import school.Email;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrows;
