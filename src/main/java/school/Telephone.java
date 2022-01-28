@@ -1,8 +1,10 @@
 package school;
 
+import lombok.Builder;
 import lombok.Getter;
 
 @Getter
+@Builder
 public class Telephone {
 
     private String telephone;
