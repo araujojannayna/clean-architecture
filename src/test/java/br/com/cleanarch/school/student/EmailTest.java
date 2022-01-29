@@ -1,5 +1,7 @@
+package br.com.cleanarch.school.student;
+
 import org.junit.jupiter.api.Test;
-import school.Email;
+import br.com.cleanarch.school.core.domain.student.Email;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrows;

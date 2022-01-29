@@ -1,4 +1,4 @@
-package school;
+package br.com.cleanarch.school.core.domain.student;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -11,7 +11,7 @@ public class Telephone {
 
     public Telephone(String telephone){
         if(telephone == null || !telephone.matches("^\\([1-9]{2}\\) (?:[2-8]|9[1-9])[0-9]{3}\\-[0-9]{4}$")){
-            throw new IllegalArgumentException("school.Telephone is not valid!");
+            throw new IllegalArgumentException("Telephone is not valid!");
         }
         this.telephone = telephone;
     }

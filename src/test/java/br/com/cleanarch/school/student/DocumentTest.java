@@ -1,6 +1,8 @@
+package br.com.cleanarch.school.student;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import school.Document;
+import br.com.cleanarch.school.core.domain.student.Document;
 
 
 class DocumentTest {

@@ -1,6 +1,8 @@
+package br.com.cleanarch.school.student;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import school.Telephone;
+import br.com.cleanarch.school.core.domain.student.Telephone;
 
 class TelephoneTest {
 

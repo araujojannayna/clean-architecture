@@ -1,4 +1,4 @@
-package school;
+package br.com.cleanarch.school.core.domain.student;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -12,7 +12,7 @@ public class Email {
     public Email(String address){
         if(address == null || !address.matches("^(?=.{1,64}@)[A-Za-z0-9_-]+(\\.[A-Za-z0-9_-]+)*@"
                 + "[^-][A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$")){
-            throw new IllegalArgumentException("school.Email is not valid!");
+            throw new IllegalArgumentException("Email is not valid!");
        }
         this.address = address;
     }

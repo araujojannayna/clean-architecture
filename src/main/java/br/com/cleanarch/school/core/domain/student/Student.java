@@ -1,4 +1,4 @@
-package school;
+package br.com.cleanarch.school.core.domain.student;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

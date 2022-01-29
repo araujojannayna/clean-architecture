@@ -1,4 +1,4 @@
-package school;
+package br.com.cleanarch.school.core.domain.student;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -11,7 +11,7 @@ public class Document {
 
     public Document(String number){
         if(number == null || !number.matches("^\\d{3}\\x2E\\d{3}\\x2E\\d{3}\\x2D\\d{2}$"))
-            throw new IllegalArgumentException("school.Document is not valid!");
+            throw new IllegalArgumentException("Document is not valid!");
         this.number = number;
     }
 }
